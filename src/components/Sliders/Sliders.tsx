@@ -9,16 +9,6 @@ interface SlidersProps {
 
 const Sliders = ({sliderData, setSliderData}: SlidersProps) => {
 
-  console.log(sliderData)
-  
-  // const handleChange = (event: ChangeEvent<{}>, value: number | number[]) => {
-  //   if (typeof value === 'number') {
-  //     // Access the 'value' property
-  //     const sliderValue = value;
-  //     console.log(sliderValue);
-  //   }
-  // }
-
   const bankLimit: number | number[] = 10000 
 
   return (

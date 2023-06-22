@@ -25,11 +25,11 @@ function App() {
         maxWidth="xl"
         sx={{
             marginTop: 4,
-
+            marginBottom: 2
         }}
       >
-        <Grid container spacing={4}>
-          <Grid item xs={12} md={6} gap={2}> 
+        <Grid container spacing={5} alignItems={"center"}>
+          <Grid item xs={12} md={6}> 
             Item 
             <Sliders sliderData={sliderData} setSliderData={setSliderData}/>
             <TenureSelect 
@@ -38,7 +38,7 @@ function App() {
             />
           </Grid>
           {/* xs small: screen md: medium screen */}
-          <Grid item xs={12} md={6}> 
+          <Grid item xs={12} md={6} > 
              
             <Result 
               sliderData={sliderData}

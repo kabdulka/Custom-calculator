@@ -40,7 +40,7 @@ const SliderComponent = ({
 //   };
 
   return (
-    <Stack gap={2}>
+    <Stack my={1.4} gap={1}>
       <Stack gap={2}>
         <Typography variant="subtitle2">{label}</Typography>
         <Typography variant="h5"> {unit}{value} </Typography>
